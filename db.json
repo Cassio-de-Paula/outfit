@@ -1,0 +1,852 @@
+{
+  "products": [
+    {
+      "id": "82c4",
+      "name": "Camiseta Oversized",
+      "category": "Trousers",
+      "inStock": true,
+      "price": 79.9,
+      "onOffer": true,
+      "orders": 100,
+      "images": [
+        {
+          "colors": [
+            "#202020"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_865969-MLB82312567485_022025-F.webp"
+        },
+        {
+          "colors": [
+            "#716051"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_987326-MLB73075965807_112023-F.webp"
+        },
+        {
+          "colors": [
+            "#D7CEC3"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_971747-MLB82030273322_022025-F.webp"
+        }
+      ],
+      "details": "Camiseta oversized de algodão premium, perfeita para qualquer ocasião.",
+      "sizes": [
+        "S",
+        "M",
+        "X",
+        "XL"
+      ],
+      "reviews": [
+        {
+          "rate": 5,
+          "message": "Ótima qualidade e muito confortável!"
+        },
+        {
+          "rate": 4,
+          "message": "Gostei do tecido, mas poderia ter mais cores."
+        }
+      ]
+    },
+    {
+      "id": "8211",
+      "name": "Moletom Canguru",
+      "category": "Trousers",
+      "inStock": true,
+      "price": 149.5,
+      "onOffer": true,
+      "orders": 81,
+      "images": [
+        {
+          "colors": [
+            "#F1ECEE"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_710995-MLB77244233388_072024-F.webp"
+        },
+        {
+          "colors": [
+            "#D39473"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_929682-MLB82627237148_032025-F.webp"
+        },
+        {
+          "colors": [
+            "#FFC8DB"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_835949-MLB77458989883_072024-F.webp"
+        }
+      ],
+      "details": "Moletom canguru com capuz, feito de tecido macio e quente.",
+      "sizes": [
+        "S",
+        "M",
+        "X",
+        "XL",
+        "XXL"
+      ],
+      "reviews": [
+        {
+          "rate": 4,
+          "message": "Muito confortável, mas poderia ser mais grosso."
+        },
+        {
+          "rate": 5,
+          "message": "Amei! Perfeito para dias frios."
+        }
+      ]
+    },
+    {
+      "id": "6c8d",
+      "name": "Perfume Feminino Make B. Rosé Eau de Parfum 75ml Floriental Amadeirado",
+      "category": "Perfume",
+      "inStock": true,
+      "price": 199.9,
+      "onOffer": false,
+      "orders": 250,
+      "images": [
+        {
+          "colors": null,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGYgBNhzbajw9j9xczxCyTeepirq29A0sNQ&s"
+        }
+      ],
+      "details": "Fragrância sofisticada com notas amadeiradas e cítricas."
+    },
+    {
+      "id": "8b92",
+      "name": "Boné Streetwear",
+      "category": "Hat",
+      "inStock": true,
+      "price": 49.9,
+      "onOffer": true,
+      "orders": 180,
+      "images": [
+        {
+          "colors": [
+            "#F0EFF4"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_902067-MLB69356771346_052023-F.webp"
+        },
+        {
+          "colors": [
+            "#801E2A"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_767774-MLB69365946219_052023-F.webp"
+        },
+        {
+          "colors": [
+            "#222E28"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_908361-MLB74559455059_022024-F.webp"
+        }
+      ],
+      "details": "Boné estiloso com ajuste regulável, ideal para qualquer look."
+    },
+    {
+      "id": "0597",
+      "name": "Tênis Casual",
+      "category": "Shoe",
+      "inStock": true,
+      "price": 299.9,
+      "onOffer": false,
+      "orders": 320,
+      "images": [
+        {
+          "colors": [
+            "#324255"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_704150-MLB82900506653_032025-F.webp"
+        },
+        {
+          "colors": [
+            "#282528"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_888207-MLB82900506625_032025-F.webp"
+        }
+      ],
+      "details": "Tênis confortável e moderno, perfeito para o dia a dia.",
+      "sizes": [
+        38,
+        40,
+        42,
+        44
+      ]
+    },
+    {
+      "id": "ffe5",
+      "name": "Garrafa Térmica 1L",
+      "category": "Thermos",
+      "inStock": true,
+      "price": 89.9,
+      "onOffer": true,
+      "orders": 210,
+      "images": [
+        {
+          "colors": [
+            "#222021"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_620973-MLB77463927317_072024-F.webp"
+        },
+        {
+          "colors": [
+            "#D0B6D7"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_866625-MLB77463927275_072024-F.webp"
+        }
+      ],
+      "details": "Garrafa térmica de alta performance, mantém a temperatura por até 12h."
+    },
+    {
+      "id": "b098",
+      "name": "Mochila Notebook Reforçada Volcom",
+      "category": "Handbag",
+      "inStock": true,
+      "price": 499.9,
+      "onOffer": true,
+      "orders": 95,
+      "images": [
+        {
+          "colors": [
+            "#2C2D33",
+            "#9A775F"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_779558-MLU74162096281_012024-F.webp"
+        }
+      ],
+      "details": "Bolsa com capacidade para 20L, com compartimento para notebook e acabamento reforçado."
+    },
+    {
+      "name": "Bolsa Feminina",
+      "category": "Handbag",
+      "inStock": true,
+      "price": 159.9,
+      "onOffer": true,
+      "orders": 49,
+      "images": [
+        {
+          "colors": [
+            "#E7B19D"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_858934-MLB47571028905_092021-F-bolsa-feminina-shopper-grande-bolsinha-promoco-lancamento.webp"
+        },
+        {
+          "colors": [
+            "#373737"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_885961-MLB47571051878_092021-F-bolsa-feminina-shopper-grande-bolsinha-promoco-lancamento.webp"
+        }
+      ],
+      "details": "Bolsa com alça em grafite e corrente resistente, Bolsa estilosa com espaço interno ideial para seu dia dia ou até mesmo para um evento, Sendo enviado juntamente com outra bolsinha para itens pequenos, Aproveite ! Promoção de lançamento !",
+      "id": "MyHlcSo"
+    },
+    {
+      "name": "Tênis feminino para caminhada",
+      "category": "Shoe",
+      "inStock": true,
+      "price": 189.9,
+      "onOffer": true,
+      "orders": 49,
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "images": [
+        {
+          "colors": [
+            "#C3C6D0"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_984231-MLB54964615467_042023-F-tnis-branco-feminino-vili-para-caminhada-academia-treino.webp"
+        },
+        {
+          "colors": [
+            "#E2B8B1",
+            "#C3C6D0"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_895781-MLB72478609004_102023-F-tnis-branco-feminino-vili-para-caminhada-academia-treino.webp"
+        },
+        {
+          "colors": [
+            "#58C9B4",
+            "#C3C6D0"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_796175-MLB72478460206_102023-F-tnis-branco-feminino-vili-para-caminhada-academia-treino.webp"
+        }
+      ],
+      "details": "Conheça o Tênis Vili Feminino! Um modelo multiuso que oferece conforto duradouro desde a academia, treinos leves de corrida às atividades casuais, o VILI VL660 possui estrutura respirável em Nylon com lingueta integrada para abraçar seu pé como se fosse uma meia e garantir ótimo encaixe e uma flexibilidade natural dos movimentos. Na parte interna, o reforço acolchoado ajuda a diminuir o desconforto do atrito de contato. Sua entressola de EVA em toda a extensão garante leve e duradouro amortecimento.",
+      "id": "VMx9UYR"
+    },
+    {
+      "name": "Perfume Masculino Ralph Lauren Polo Blue EDT 200ml",
+      "category": "Perfume",
+      "inStock": true,
+      "price": 139.9,
+      "onOffer": false,
+      "orders": 25,
+      "images": [
+        {
+          "colors": null,
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_982621-MLA79978387968_102024-F.webp"
+        }
+      ],
+      "id": "MGRyMeG"
+    },
+    {
+      "name": "Boné Trucker Fatal Fury",
+      "category": "Hat",
+      "inStock": true,
+      "price": 49.9,
+      "onOffer": false,
+      "orders": 55,
+      "images": [
+        {
+          "colors": [
+            "#313238"
+          ],
+          "url": "https://http2.mlstatic.com/D_NQ_NP_2X_875629-MLB83202688395_032025-F-bone-trucker-telinha-aba-curva-fatal-fury.webp"
+        }
+      ],
+      "details": "Boné trucker telinha aba curva fechamento snapback. Boné confortável que agrada vários estilos e compreende diversas idades.",
+      "id": "zMKoG08"
+    }
+  ],
+  "orders": [
+    {
+      "id": "b20e",
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 2,
+          "color": [
+            "#D39473"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_929682-MLB82627237148_032025-F.webp",
+          "size": "M"
+        },
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 1,
+          "color": [
+            "#202020"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_865969-MLB82312567485_022025-F.webp",
+          "size": "M"
+        }
+      ],
+      "total": 292.70025,
+      "createdAt": "2025-03-24T16:33:47.605Z"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 1,
+          "color": [
+            "#F1ECEE"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_710995-MLB77244233388_072024-F.webp",
+          "size": "M"
+        }
+      ],
+      "total": 153.985,
+      "createdAt": "2025-03-24T17:39:16.106Z",
+      "id": "KLZ0Llf"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "VMx9UYR",
+          "name": "Tênis feminino para caminhada",
+          "price": 189.9,
+          "quantity": 2,
+          "color": [
+            "#58C9B4",
+            "#C3C6D0"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_796175-MLB72478460206_102023-F-tnis-branco-feminino-vili-para-caminhada-academia-treino.webp",
+          "size": 36
+        }
+      ],
+      "total": 391.194,
+      "createdAt": "2025-03-24T17:42:06.359Z",
+      "id": "YOJtjba"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "6c8d",
+          "name": "Perfume Feminino Make B. Rosé Eau de Parfum 75ml Floriental Amadeirado",
+          "price": 199.9,
+          "quantity": 2,
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGYgBNhzbajw9j9xczxCyTeepirq29A0sNQ&s"
+        }
+      ],
+      "total": 411.79400000000004,
+      "createdAt": "2025-03-24T17:43:07.871Z",
+      "id": "Lje-5Ln"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "ffe5",
+          "name": "Garrafa Térmica 1L",
+          "price": 89.9,
+          "quantity": 1,
+          "color": [
+            "#D0B6D7"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_866625-MLB77463927275_072024-F.webp"
+        }
+      ],
+      "total": 112.59700000000001,
+      "createdAt": "2025-03-24T17:52:51.521Z",
+      "id": "htL28m1"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 2,
+          "color": [
+            "#716051"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_987326-MLB73075965807_112023-F.webp",
+          "size": "M"
+        }
+      ],
+      "total": 164.59400000000002,
+      "createdAt": "2025-03-24T17:55:23.865Z",
+      "id": "mFltFkX"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "8b92",
+          "name": "Boné Streetwear",
+          "price": 49.9,
+          "quantity": 2,
+          "color": [
+            "#801E2A"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_767774-MLB69365946219_052023-F.webp"
+        }
+      ],
+      "total": 122.794,
+      "createdAt": "2025-03-24T17:57:25.431Z",
+      "id": "r_qxI6U"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "b098",
+          "name": "Mochila Notebook Reforçada Volcom",
+          "price": 499.9,
+          "quantity": 1,
+          "color": [
+            "#2C2D33",
+            "#9A775F"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_779558-MLU74162096281_012024-F.webp"
+        }
+      ],
+      "total": 514.8969999999999,
+      "createdAt": "2025-03-24T18:00:21.248Z",
+      "id": "GNyVkMN"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "6c8d",
+          "name": "Perfume Feminino Make B. Rosé Eau de Parfum 75ml Floriental Amadeirado",
+          "price": 199.9,
+          "quantity": 1,
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGYgBNhzbajw9j9xczxCyTeepirq29A0sNQ&s"
+        }
+      ],
+      "total": 205.89700000000002,
+      "createdAt": "2025-03-24T18:01:26.416Z",
+      "id": "1n8R4VK"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "MGRyMeG",
+          "name": "Perfume Masculino Ralph Lauren Polo Blue EDT 200ml",
+          "price": 139.9,
+          "quantity": 2,
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_982621-MLA79978387968_102024-F.webp"
+        }
+      ],
+      "total": 288.194,
+      "createdAt": "2025-03-24T18:06:22.093Z",
+      "id": "248d_O-"
+    },
+    {
+      "userId": "user_2ubenZI5ZdZjZvNOjRL9zDz3pr9",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 1,
+          "color": [
+            "#FFC8DB"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_835949-MLB77458989883_072024-F.webp",
+          "size": "X"
+        }
+      ],
+      "total": 153.985,
+      "createdAt": "2025-03-24T18:13:04.021Z",
+      "id": "r710oV-"
+    },
+    {
+      "userId": "user_2um9I4R0mmF4QudZkQB26CjrjT3",
+      "items": [
+        {
+          "id": "8b92",
+          "name": "Boné Streetwear",
+          "price": 49.9,
+          "quantity": 1,
+          "color": [
+            "#F0EFF4"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_902067-MLB69356771346_052023-F.webp"
+        }
+      ],
+      "total": 53.54775000000001,
+      "createdAt": "2025-03-24T19:02:53.558Z",
+      "id": "gE2eOOc"
+    },
+    {
+      "userId": "user_2umBhqOQ12ijraalje7B1hy3kiR",
+      "items": [
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 1,
+          "color": [
+            "#716051"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_987326-MLB73075965807_112023-F.webp",
+          "size": "X"
+        },
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 2,
+          "color": [
+            "#D7CEC3"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_971747-MLB82030273322_022025-F.webp",
+          "size": "X"
+        },
+        {
+          "id": "zMKoG08",
+          "name": "Boné Trucker Fatal Fury",
+          "price": 49.9,
+          "quantity": 1,
+          "color": [
+            "#313238"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_875629-MLB83202688395_032025-F-bone-trucker-telinha-aba-curva-fatal-fury.webp"
+        }
+      ],
+      "total": 223.716,
+      "createdAt": "2025-03-24T19:20:05.483Z",
+      "id": "QiFcDxa"
+    },
+    {
+      "userId": "user_2umX4P5EoUKSpsyW8MloqLGljpf",
+      "items": [
+        {
+          "id": "ffe5",
+          "name": "Garrafa Térmica 1L",
+          "price": 89.9,
+          "quantity": 2,
+          "color": [
+            "#D0B6D7"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_866625-MLB77463927275_072024-F.webp"
+        }
+      ],
+      "total": 138.89550000000003,
+      "createdAt": "2025-03-24T22:15:42.849Z",
+      "id": "evqSZKC"
+    },
+    {
+      "userId": "user_2umY3oAJg95M7fSsQKJeLbOK5qo",
+      "items": [
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 3,
+          "color": [
+            "#716051"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_987326-MLB73075965807_112023-F.webp",
+          "size": "X"
+        },
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 1,
+          "color": [
+            "#FFC8DB"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_835949-MLB77458989883_072024-F.webp",
+          "size": "X"
+        }
+      ],
+      "total": 300.65700000000004,
+      "createdAt": "2025-03-24T22:24:21.613Z",
+      "id": "KmcUEKl"
+    },
+    {
+      "userId": "user_2ummVJVCLQWj4nSOG9mEuycyLDK",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 1,
+          "color": [
+            "#D39473"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_929682-MLB82627237148_032025-F.webp",
+          "size": "X"
+        },
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 1,
+          "color": [
+            "#F1ECEE"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_710995-MLB77244233388_072024-F.webp",
+          "size": "X"
+        },
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 2,
+          "color": [
+            "#D7CEC3"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_971747-MLB82030273322_022025-F.webp",
+          "size": "M"
+        }
+      ],
+      "total": 354.423,
+      "createdAt": "2025-03-25T00:22:53.305Z",
+      "id": "ZVaYqDM"
+    },
+    {
+      "userId": "user_2ummVJVCLQWj4nSOG9mEuycyLDK",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 2,
+          "color": [
+            "#D39473"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_929682-MLB82627237148_032025-F.webp",
+          "size": "X"
+        }
+      ],
+      "total": 307.97,
+      "createdAt": "2025-03-25T19:25:44.595Z",
+      "id": "oTYlExE"
+    },
+    {
+      "userId": "user_2ummVJVCLQWj4nSOG9mEuycyLDK",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 1,
+          "color": [
+            "#FFC8DB"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_835949-MLB77458989883_072024-F.webp",
+          "size": "XL"
+        }
+      ],
+      "total": 153.985,
+      "createdAt": "2025-03-25T19:40:11.061Z",
+      "id": "sR7EB6w"
+    },
+    {
+      "userId": "user_2ummVJVCLQWj4nSOG9mEuycyLDK",
+      "items": [
+        {
+          "id": "ffe5",
+          "name": "Garrafa Térmica 1L",
+          "price": 89.9,
+          "quantity": 1,
+          "color": [
+            "#D0B6D7"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_866625-MLB77463927275_072024-F.webp"
+        }
+      ],
+      "total": 112.59700000000001,
+      "createdAt": "2025-03-25T19:48:30.928Z",
+      "id": "C2LPyvE"
+    },
+    {
+      "userId": "user_2ummVJVCLQWj4nSOG9mEuycyLDK",
+      "items": [
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 1,
+          "color": [
+            "#202020"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_865969-MLB82312567485_022025-F.webp",
+          "size": "X"
+        }
+      ],
+      "total": 102.29700000000001,
+      "createdAt": "2025-03-25T19:57:41.169Z",
+      "id": "4K0FMW4"
+    },
+    {
+      "userId": "user_2ummVJVCLQWj4nSOG9mEuycyLDK",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 1,
+          "color": [
+            "#D39473"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_929682-MLB82627237148_032025-F.webp",
+          "size": "M"
+        }
+      ],
+      "total": 153.985,
+      "createdAt": "2025-03-25T20:01:12.293Z",
+      "id": "GFSP9J8"
+    },
+    {
+      "userId": "user_2ummhFrghp7DfGgdvGup7ZhRfj5",
+      "items": [
+        {
+          "id": "8211",
+          "name": "Moletom Canguru",
+          "price": 149.5,
+          "quantity": 2,
+          "color": [
+            "#D39473"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_929682-MLB82627237148_032025-F.webp",
+          "size": "M"
+        }
+      ],
+      "total": 230.97750000000002,
+      "createdAt": "2025-03-26T01:53:43.333Z",
+      "id": "FKLR9FY"
+    },
+    {
+      "userId": "user_2ummhFrghp7DfGgdvGup7ZhRfj5",
+      "items": [
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 1,
+          "color": [
+            "#716051"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_987326-MLB73075965807_112023-F.webp",
+          "size": "S"
+        }
+      ],
+      "total": 102.29700000000001,
+      "createdAt": "2025-03-26T02:00:23.051Z",
+      "id": "vJ3EQgr"
+    },
+    {
+      "userId": "user_2ummhFrghp7DfGgdvGup7ZhRfj5",
+      "items": [
+        {
+          "id": "82c4",
+          "name": "Camiseta Oversized",
+          "price": 79.9,
+          "quantity": 1,
+          "color": [
+            "#716051"
+          ],
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_987326-MLB73075965807_112023-F.webp",
+          "size": "M"
+        }
+      ],
+      "total": 102.29700000000001,
+      "createdAt": "2025-03-26T02:28:18.102Z",
+      "id": "0IQAazH"
+    }
+  ],
+  "newsletterMembers": [
+    {
+      "id": "ad08",
+      "email": "cassio.email@teste.com"
+    },
+    {
+      "id": "6ba0",
+      "email": "mmeu@email.teste"
+    },
+    {
+      "id": "9e11",
+      "email": "teste@email.com"
+    },
+    {
+      "id": "db68",
+      "email": "teste@email.com"
+    },
+    {
+      "id": "b6d7",
+      "email": "email@email.com"
+    },
+    {
+      "id": "0ef0",
+      "email": "email@teste.com"
+    },
+    {
+      "id": "1aa8",
+      "email": "meu_email@teste.com"
+    },
+    {
+      "id": "zcadc1I"
+    }
+  ]
+}
