@@ -10,8 +10,6 @@ const About = () => {
     const [isLoadingRepos, setIsLoadingRepos] = useState<boolean>(true);
     const [isLoadingTechStack, setIsLoadingTechStack] = useState<boolean>(true);
 
-    const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN
-
     const fetchUserData = async () => {
         try {
             const res = await fetch("https://api.github.com/users/Cassio-de-Paula");
@@ -48,13 +46,7 @@ const About = () => {
     const setTechStack = async () => {
         try {
             const res = await fetch(
-                `https://api.github.com/repos/Cassio-de-Paula/Cassio-de-Paula/contents/README.md`,
-                {
-                    headers: {
-                        Authorization: `token ${GITHUB_TOKEN}`,
-                    },
-                    method: "GET",
-                }
+                `https://api.github.com/repos/Cassio-de-Paula/Cassio-de-Paula/contents/README.md`
             );
 
             if (!res.ok) throw new Error("Failed to fetch README");
