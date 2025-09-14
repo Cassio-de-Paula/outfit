@@ -25,7 +25,7 @@ const OrderService = {
     },
     getById: async (orderId: string): Promise<Order | string> => {
         try {
-            const res = await fetch(`http://localhost:3000/orders/${orderId}`)
+            const res = await fetch(`${API_URL}/orders/${orderId}`)
 
             if (!res.ok) throw new Error('Order not found');
 
@@ -37,7 +37,7 @@ const OrderService = {
     },
     getByUser: async (userId: string): Promise<Order[] | string> => {
         try {
-            const res = await fetch(`http://localhost:3000/orders?userId=${userId}`)
+            const res = await fetch(`${API_URL}/orders?userId=${userId}`)
 
             if (!res.ok) throw new Error('This user has no orders');
 
