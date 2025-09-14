@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/outfit/dist/',
+  base: '/outfit/',
   plugins: [
     react(),
     tailwindcss()
