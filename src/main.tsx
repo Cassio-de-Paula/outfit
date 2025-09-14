@@ -7,9 +7,9 @@ import { Provider } from 'react-redux'
 import { store } from './store/store.ts'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
-const BASE_URL = import.meta.env.VITE_BASE_URL
+const API_URL = import.meta.env.VITE_API_URL
 
-if (!BASE_URL) {
+if (!API_URL) {
   throw new Error("Missing API url")
 }
 

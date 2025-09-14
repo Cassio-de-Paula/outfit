@@ -1,11 +1,11 @@
 import { Order } from "../types/Order"
-const BASE_URL = import.meta.env.VITE_BASE_URL
+const API_URL = import.meta.env.VITE_API_URL
 
 
 const OrderService = {
     create: async (order: Order): Promise<Order | string> => {
         try {
-            const res = await fetch(`${BASE_URL}/orders`, {
+            const res = await fetch(`${API_URL}/orders`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

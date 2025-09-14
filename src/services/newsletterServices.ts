@@ -1,9 +1,9 @@
-const BASE_URL = import.meta.env.VITE_BASE_URL
+const API_URL = import.meta.env.VITE_API_URL
 
 const NewsletterService = {
     addEmail: async (email: string) => {
         try {
-            const res = await fetch(`${BASE_URL}/newsletterMembers`, {
+            const res = await fetch(`${API_URL}/newsletterMembers`, {
                 method: 'POST',
                 body: JSON.stringify({ email: email })
             })

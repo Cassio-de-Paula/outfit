@@ -1,12 +1,12 @@
 import { Product } from "../types/Product";
-const BASE_URL = import.meta.env.VITE_BASE_URL
+const API_URL = import.meta.env.VITE_API_URL
 
 export const ProductService = {
     getByFilters: async (page: number, filters: string[], price?: number, queryName?: string): Promise<Product[] | string> => {
         try {
             let results: Product[] = []
 
-            let query = `${BASE_URL}/products?`
+            let query = `${API_URL}/products?`
 
             if (price !== undefined) query += `&price_lte=${price}`
 
@@ -40,7 +40,7 @@ export const ProductService = {
 
     getBestSelling: async (): Promise<Product[] | string> => {
         try {
-            const res = await fetch(`${BASE_URL}/products?_sort=orders&_order=desc&_limit=4`);
+            const res = await fetch(`${API_URL}/products?_sort=orders&_order=desc&_limit=4`);
             if (!res.ok) throw new Error(res.statusText);
 
             const products: Product[] = await res.json();
@@ -53,7 +53,7 @@ export const ProductService = {
 
     getOffers: async (): Promise<Product[] | string> => {
         try {
-            const res = await fetch(`${BASE_URL}/products?onOffer=true`);
+            const res = await fetch(`${API_URL}/products?onOffer=true`);
             if (!res.ok) throw new Error(res.statusText);
 
             const products: Product[] = await res.json();
@@ -71,7 +71,7 @@ export const ProductService = {
 
     getById: async (productId: string): Promise<Product | string> => {
         try {
-            const res = await fetch(`${BASE_URL}/products/${productId}`);
+            const res = await fetch(`${API_URL}/products/${productId}`);
 
             if (!res.ok) throw new Error(res.statusText);
 
@@ -85,7 +85,7 @@ export const ProductService = {
 
     getByCategory: async (category: string): Promise<Product[] | string> => {
         try {
-            const res = await fetch(`${BASE_URL}/products?category=${category}`);
+            const res = await fetch(`${API_URL}/products?category=${category}`);
             if (!res.ok) throw new Error(res.statusText);
 
             const products: Product[] = await res.json();
