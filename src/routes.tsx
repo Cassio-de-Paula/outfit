@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { createHashRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import Listing from './pages/Listing'
 import Details from './pages/Details'
@@ -17,80 +17,38 @@ import ResetPassword from './pages/ResetPassword'
 import About from './pages/About'
 import Error404 from './pages/Error404'
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
     {
-        path: '/outfit',
+        path: '/',
         element: <Base />,
         children: [
+            { path: '/', element: <Home /> },
             {
-                path: '/',
-                element: <Home />
-            },
-            {
-                path: '/auth',
+                path: 'auth',
                 element: <Auth />,
                 children: [
-                    {
-                        path: '/auth/register',
-                        element: <SignUp />
-                    },
-                    {
-                        path: '/auth/login',
-                        element: <SignIn />
-                    },
-                    {
-                        path: '/auth/forgot-password',
-                        element: <ForgotPassword />
-                    },
-                    {
-                        path: '/auth/reset-password',
-                        element: <ResetPassword />
-                    }
+                    { path: 'register', element: <SignUp /> },
+                    { path: 'login', element: <SignIn /> },
+                    { path: 'forgot-password', element: <ForgotPassword /> },
+                    { path: 'reset-password', element: <ResetPassword /> }
                 ]
             },
+            { path: 'my-account', element: <Profile /> },
+            { path: 'products', element: <Listing /> },
+            { path: 'products/:productId', element: <Details /> },
             {
-                path: '/my-account',
-                element: <Profile />
-            },
-            {
-                path: '/products',
-                element: <Listing />,
-            },
-            {
-                path: '/products/:productId',
-                element: <Details />
-            },
-            {
-                path: '/cart',
+                path: 'cart',
                 element: <ShoppingCart />,
                 children: [
-                    {
-                        path: '/cart',
-                        element: <Cart />
-                    },
-                    {
-                        path: '/cart/checkout',
-                        element: <Checkout />
-                    },
+                    { path: '', element: <Cart /> },
+                    { path: 'checkout', element: <Checkout /> }
                 ]
             },
-            {
-                path: '/cart/checkout/:orderId',
-                element: <Payment />
-            }
+            { path: 'cart/checkout/:orderId', element: <Payment /> },
+            { path: 'about', element: <About /> },
+            { path: 'sso-callback', element: <AuthenticateWithRedirectCallback /> },
+            { path: '*', element: <Error404 /> }
         ]
-    },
-    {
-        path: '/outfit/about',
-        element: <About />
-    },
-    {
-        path: '/outfit/sso-callback',
-        element: <AuthenticateWithRedirectCallback />
-    },
-    {
-        path: '*',
-        element: <Error404 />
     }
 ])
 
