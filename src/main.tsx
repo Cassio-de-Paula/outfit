@@ -9,7 +9,9 @@ import { store } from './store/store.ts'
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 const BASE_URL = import.meta.env.VITE_BASE_URL
 
-console.log(BASE_URL)
+if (!BASE_URL) {
+  throw new Error("Missing API url")
+}
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
