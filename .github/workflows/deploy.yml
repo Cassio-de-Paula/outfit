@@ -3,34 +3,29 @@ name: Deploy React Vite to GitHub Pages
 on:
   push:
     branches:
-      - master   # ou 'main', se for seu caso
+      - master  # ou 'main'
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Clonar o repositório
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Configurar Node
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      # 3. Instalar dependências
       - name: Install dependencies
         run: npm ci
 
-      # 4. Build do Vite
       - name: Build
         run: npm run build
 
-      # 5. Deploy para gh-pages
       - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
