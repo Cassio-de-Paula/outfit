@@ -19,7 +19,7 @@ import Error404 from './pages/Error404'
 
 const routes = createBrowserRouter([
     {
-        path: '',
+        path: '/outfit',
         element: <Base />,
         children: [
             {
@@ -81,11 +81,11 @@ const routes = createBrowserRouter([
         ]
     },
     {
-        path: '/about',
+        path: '/outfit/about',
         element: <About />
     },
     {
-        path: '/sso-callback',
+        path: '/outfit/sso-callback',
         element: <AuthenticateWithRedirectCallback />
     },
     {
